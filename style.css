@@ -8,7 +8,9 @@
 section{
     margin: 30px 30px;
 }
-
+button{
+    cursor: pointer;
+}
 
 
 /* navbar tags */
@@ -52,6 +54,7 @@ h1{
     color: #151414;
     font-size: 65px;
     margin-bottom: 24px;
+    margin-left: 100px;
 }
 p{
     color: #444343;
@@ -140,3 +143,63 @@ p{
 .card-description{
     font-size: 25px;
 }
+
+            /* CALL NOW SECTION */
+
+.callnow-cover{
+    width: 80%;
+    height: max-content;
+    margin: auto;
+    
+    
+}
+.callnow-content{
+    background-image: url("images/watch.png"),url("images/gradient2.png");
+    background-blend-mode: overlay;
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 74px 64px;
+    border-radius: 5px;
+}
+.callnow-content h3{
+    color: white;
+    margin-right: 60%;
+}
+.btn-2{
+    color: #F15B22;
+}
+footer{
+    background-color: #151414;
+    color: white;
+}
+.footer-container{
+    background-color: #151414;
+    display: flex;
+    justify-content: center;
+    gap: 200px ;
+    margin: 0px 230px;
+    padding: 230px 0px;
+}
+
+.footer-boxes{
+
+}
+.footer-boxes input[type=email]{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid white;
+    background: #151414;
+    width: 100%;
+
+}
+.footer-boxes {
+
+}
+box-info
+box-social
