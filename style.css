@@ -6,7 +6,7 @@
 /* Global tags */
 
 section{
-    margin: 30px 30px;
+    margin: 230px 30px;
 }
 button{
     cursor: pointer;
@@ -80,17 +80,18 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 150px 350px ;
+    margin: 0px 350px ;
     gap: 50px;
 
 
 }
 .failure-images img{
-    width: 450px;
+    width: 550px;
 }
 .failure-details{
     margin-right: 200px;
     margin-left: 50px;
+   
 
 }
 .failure-details >ul {
@@ -116,6 +117,7 @@ p{
     font-size: 16px;
     color: #444343;
     margin-bottom: 24px;
+    line-height: 26px;
 }
 .center{
     text-align: center;
@@ -179,7 +181,7 @@ footer{
     justify-content: center;
     gap: 200px ;
     margin: 0px 230px;
-    padding: 230px 0px;
+    padding: 130px 0px;
 }
 
 .footer-boxes{
@@ -198,8 +200,38 @@ footer{
     width: 100%;
 
 }
-.footer-boxes {
-
+.footer-boxes h3{
+ font-size: 45px;
+ margin-bottom: 16px;
 }
-box-info
-box-social
+.footer-boxes p{
+ color: white;
+ margin-bottom: 24px;
+ line-height: 26px;
+ max-width: 485px;
+}
+.footer-boxes h3{
+ 
+}
+.footer-boxes h4{
+ font-size: 25px;
+ margin-bottom: 32px;
+}
+.box-social i{
+    padding: 5px;
+}
+.fa-brands{
+    font-size: 40px;
+    border-radius: 40px;
+}
+.fa-facebook{
+    background-color: #1977f3;
+    
+}
+.fa-twitter{
+    background-color: #1c96e9;
+}
+
+.fa-youtube{
+    background-color: #ee1a0c;
+}
