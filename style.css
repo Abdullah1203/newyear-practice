@@ -78,7 +78,7 @@ p{
     align-items: center;
     justify-content: center;
     margin: 150px 350px ;
-    gap: 30px;
+    gap: 50px;
 
 
 }
@@ -87,9 +87,13 @@ p{
 }
 .failure-details{
     margin-right: 200px;
+    margin-left: 50px;
 
 }
 .failure-details >ul {
+    padding-left: 0;
+    margin-left: 0;
+
     list-style: none;
   }
   .failure-details >ul li{
@@ -109,4 +113,30 @@ p{
     font-size: 16px;
     color: #444343;
     margin-bottom: 24px;
+}
+.center{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    gap: 200px;
+}
+.card-img img{
+    width: 92px;
+    margin-bottom: 24px;
+}
+.card{
+    
+}
+.card h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.card-description{
+    font-size: 25px;
 }
